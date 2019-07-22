@@ -5,6 +5,24 @@ body {
     color: white;
 }
 
+nav {
+    text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 14px;
+}
+
+nav a {
+	padding: 15px;
+	padding-bottom: 4px;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: teal;
+}
+
 h1 {
     text-align: center;
     font-family: 'Roboto Mono', sans-serif;
@@ -16,20 +34,64 @@ h4 {
     margin: 0px auto;
 }
 
-input, select, textarea, option {
-    font-size: 12px;
-    font-family: 'Roboto Mono', sans-serif;
-    color:darkgray;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    border-bottom: 1px solid white;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    caret-color: white;
+a:visited {
+    color: gray;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+.mercury_img img {
+    display: block;
     margin: 0 auto;
 }
+
+#mercury_text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.venus_img img {
+    display: block;
+    margin: 0 auto;
+}
+
+#venus_text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.earth_img img {
+    display: block;
+    margin: 0 auto;
+}
+
+#earth_text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mars_img img {
+    display: block;
+    margin: 0 auto;
+}
+
+#mars_text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jupiter_img img {
+    display: block;
+    margin: 0 auto;
+}
+
+#jupiter_text {
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 form, table {
     align-content: center;
@@ -44,7 +106,6 @@ footer {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
-    position: absolute !important;
     bottom: 0 !important;
 }
 
