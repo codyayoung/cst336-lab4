@@ -32,6 +32,6 @@ app.get("/mars", function(req, res) {
     res.render("mars.html");
 });
 
-app.get("/mars", function(req, res) {
-    res.render("mars.html");
+app.get("/jupiter", function(req, res) {
+    res.render("jupiter.html");
 });
